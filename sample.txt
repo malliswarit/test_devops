@@ -1,0 +1,26 @@
+Spring Boot & MicroServices @ 7:00 AM By Mr.Nataraj
+Day-1 https://youtu.be/Yz7VIg3eS2A
+Day-2 https://youtu.be/PS645xP6jfg
+Day-3 https://youtu.be/AfOUrLZ_W2k
+Day-4 https://youtu.be/1Y4DIv-_KPM
+
+
+expect("").toBeintheDocument();
+
+
+const btn = screen.getByTestId('update_beneficiary_btn');
+fireEvent.click(btn);
+await fireEvent.click(screen.getByTestId('update_beneficiary_btn'));
+
+
+await waitFor(() => expect(input[1]?.props?.value).toEqual('jerry'));
+
+fireEvent(input[1],{value:'jerry'})
+
+13569
+
+
+mongodb+srv://test:<password>@cluster0.bokcd.mongodb.net/
+
+
+
